@@ -1,0 +1,4 @@
+<button class="btn btn-lg" [class.btn-outline-primary]="isFavorite" [class.btn-outline-danger]="!isFavorite"
+    (click)="onClick()">
+    <i class="bi" [class.bi-emoji-kiss-fill]="isFavorite" [class.bi-heartbreak-fill]="!isFavorite"></i>
+</button>
